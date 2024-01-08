@@ -1,6 +1,13 @@
 body{
-    background-color: rgb(88, 57, 39);
-    
+    background-color: rgb(88, 57, 39); 
+}
+
+header{
+    background-color: rgb(195,176,145);
+}
+
+footer{
+    background-color: rgb(195,176,145);
 }
 
 /* LoVe HAte */
