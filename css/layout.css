@@ -1,3 +1,13 @@
+@font-face {
+    font-family: exo;
+    src: url(../Fonts/exo2-italic-variablefont_wght-webfont.woff);
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(../Fonts/lemon-regular-webfont.woff);
+}
+
 body {
   margin: 0 auto;
   max-width: 1200px;
@@ -131,4 +141,14 @@ img {
 
 .cv_tekst {
   max-width: 90%;
+}
+
+.gw_tekst{
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.ux_tekst{
+    max-width: 70%;
+    margin-left: 15%;
 }
