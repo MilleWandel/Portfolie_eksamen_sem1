@@ -17,6 +17,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: space-between;
+  font-family: lemon;
 }
 
 nav a {
@@ -33,11 +34,13 @@ nav {
   display: flex;
   margin-left: 5%;
   font-size: 30px;
+  font-family: lemon;
 }
 
 h1 {
   text-align: center;
   padding-top: 1%;
+  font-family: lemon;
 }
 
 #forside_mw {
@@ -49,20 +52,23 @@ h1 {
 #forside_md {
   text-align: center;
   font-size: 150%;
-  margin-top: -8%;
+  margin-top: -6%;
   margin-bottom: 5%;
   color: white;
+  font-family: exo;
 }
 
 h3 {
   text-align: center;
   color: white;
   border-bottom: 1px solid white;
+  font-family: lemon;
 }
 
 p {
   text-align: center;
   color: white;
+  font-family: exo;
 }
 
 #forside_p {
@@ -75,6 +81,7 @@ p {
 
 footer {
   margin-top: 5%;
+  font-family: lemon;
 }
 
 img {
@@ -137,6 +144,7 @@ img {
 .grid3_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  font-family: exo;
 }
 
 .cv_tekst {
