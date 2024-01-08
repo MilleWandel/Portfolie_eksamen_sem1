@@ -12,6 +12,8 @@ body {
 .menu{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    text-decoration: none;
 }
 
 .nav{
@@ -27,7 +29,7 @@ body {
 .navn{
     display: flex;
     margin-left: -40%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h1 {
@@ -120,4 +122,13 @@ img {
   max-width: 200px;
   line-height: 1.5;
   text-align: center;
+}
+
+.grid3_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cv_tekst{
+    max-width: 90%;
 }
