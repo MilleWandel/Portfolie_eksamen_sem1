@@ -4,16 +4,26 @@ body {
 }
 
 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5px;
   list-style: none;
 }
 
 .nav{
-    border: 3px solid bisque;
+    border: 1px solid bisque;
     border-radius: 50%;
-    margin-left: 70%;
+    margin-left: 50%;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 3%;
+    text-align: center;
+}
+
+.navn{
+    display: flex;
+    margin-left: -40%;
+    font-size: 30px;
 }
 
 h1 {
