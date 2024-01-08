@@ -59,10 +59,8 @@ p {
   border: 2px solid bisque;
   margin-left: 20%;
   margin-right: 20%;
-  border-radius: 40%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  padding: 3%;
+  border-radius: 50%;
+  padding: 4%;
 }
 
 footer {
@@ -100,7 +98,16 @@ img {
 .grid3_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
+
+.grid2_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16%;
+    margin-bottom: 17%;
+  }
 
 .tryk {
   display: inline-block;
