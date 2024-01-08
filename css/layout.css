@@ -3,11 +3,15 @@ body {
   max-width: 1200px;
 }
 
-ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 5px;
-  list-style: none;
+.grid3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .nav{
