@@ -1,86 +1,104 @@
-
-body{
-    margin: 0 auto;
-    max-width: 1200px;
+body {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
 
-nav ul{
-    border: 3px solid bisque;
-    border-radius: 40%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 2%;
+nav ul {
+  border: 3px solid bisque;
+  border-radius: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 2%;
 }
 
-h1{
-    text-align: center;
-    padding-top: 1%;
+h1 {
+  text-align: center;
+  padding-top: 1%;
 }
 
-#forside_mw{
-    text-align: center;
-    font-size: 700%;
-    color: white;
+#forside_mw {
+  text-align: center;
+  font-size: 700%;
+  color: white;
 }
 
-#forside_md{
-    text-align: center;
-    font-size: 150%;
-    margin-top: -8%;
-    margin-bottom: 5%;
-    color: white;
+#forside_md {
+  text-align: center;
+  font-size: 150%;
+  margin-top: -8%;
+  margin-bottom: 5%;
+  color: white;
 }
 
-h3{
-    text-align: center;
-    color: white;
-    border-bottom: 1px solid white;
+h3 {
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
-p{
-    text-align: center;
-    color: white;
+p {
+  text-align: center;
+  color: white;
 }
 
-
-#forside_p{
-    border: 2px solid bisque;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 40%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding: 3%;
+#forside_p {
+  border: 2px solid bisque;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 3%;
 }
 
-footer{
-    margin-top: 5%;
+footer {
+  margin-top: 5%;
 }
 
-img{
-    max-width: 70%;
+img {
+  max-width: 70%;
 }
 
-#kaffe_billeder{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-left: 12%;
+#kaffe_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-left: 12%;
 }
 
-#grid1_1_1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 100%;
-    margin-left: 12%;
+#grid1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  margin-left: 12%;
+}
+
+.grid3_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tryk {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 80px 80px;
+  border: 2px solid burlywood;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  max-width: 200px;
+  line-height: 1.5;
+  text-align: center;
 }
