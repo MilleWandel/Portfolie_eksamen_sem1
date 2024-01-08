@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(88, 57, 39);
+    
+}
+
+/* LoVe HAte */
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+a:active{
+    color: burlywood;
+}
+
+footer{
+    color: white;
+}
+
+h1{
+    color: white;
+}

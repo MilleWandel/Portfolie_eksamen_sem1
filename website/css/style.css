@@ -1,0 +1,363 @@
+#screen {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: red;
+  overflow: hidden;
+}
+
+#game {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#game_background {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  background-image: url(../img/baggrunden.svg);
+  background-size: cover;
+}
+
+#game_elements {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Spilelementer og forgrund */
+
+#able_container,
+#able_container1,
+#able_container2,
+#able_container3,
+#able_container4 {
+  position: absolute;
+  width: 5%;
+  transform-origin: center 95%;
+}
+#able_container {
+  aspect-ratio: 1/1;
+}
+#able_container1 {
+  aspect-ratio: 1/3;
+}
+#able_container2 {
+  aspect-ratio: 1/1;
+}
+#able_container3 {
+  aspect-ratio: 2/3;
+}
+#able_container4 {
+  aspect-ratio: 3/4;
+}
+#able_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/æble.svg);
+  background-size: cover;
+}
+
+#able_sprite1 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../img/ananas.svg);
+  background-size: cover;
+}
+
+#able_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/appelsin.svg);
+  background-size: cover;
+}
+
+#able_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/banan.svg);
+  background-size: cover;
+}
+
+#able_sprite4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/pære.svg);
+  background-size: cover;
+}
+
+#Rable_container,
+#Rable_container1,
+#Rable_container2,
+#Rable_container3,
+#Rable_container4 {
+  position: absolute;
+  width: 5%;
+  aspect-ratio: 7/8;
+  transform-origin: center 95%;
+}
+
+#Rable_container3{
+  aspect-ratio: 1/1;
+}
+
+#Rable_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Ræble.svg);
+  background-size: cover;
+}
+
+#Rable_sprite1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Rpære.svg);
+  background-size: cover;
+}
+
+#Rable_sprite2 {
+  width: 100%;
+  height: 150%;
+  background-image: url(../img/Rananas.svg);
+  background-size: cover;
+}
+
+#Rable_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Rappelsin.svg);
+  background-size: cover;
+}
+
+#Rable_sprite4 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/Rbanan.svg);
+  background-size: cover;
+}
+
+.pos1 {
+  top: 0%;
+  left: 2%;
+}
+.pos2 {
+  top: 0%;
+  left: 20%;
+}
+.pos3 {
+  top: 0%;
+  left: 35%;
+}
+.pos4 {
+  top: 0%;
+  left: 35%;
+}
+.pos5 {
+  top: 0%;
+  left: 54%;
+}
+.pos6 {
+  top: 0%;
+  left: 49%;
+}
+.pos7 {
+  top: 0%;
+  left: 65%;
+}
+.pos8 {
+  top: 0%;
+  left: 78%;
+}
+.pos9 {
+  top: 0%;
+  left: 70%;
+}
+.pos10 {
+  top: 0%;
+  left: 82%;
+}
+
+.posFall1 {
+  top: -20%;
+  left: 15%;
+}
+.posFall2 {
+  top: -20%;
+  left: 35%;
+}
+.posFall3 {
+  top: -20%;
+  left: 55%;
+}
+.posFall4 {
+  top: -20%;
+  left: 75%;
+}
+.posFall5 {
+  top: -20%;
+  left: 85%;
+}
+
+#game_foreground {
+  position: absolute;
+  top: 65%;
+  left: 68%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/mennesker.svg);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/* UI elementer */
+
+#game_ui {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#score_board {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 73%;
+  left: 3%;
+  width: 23%;
+  aspect-ratio: 11/6.7;
+  background-image: url(../img/kurv.svg);
+  background-size: cover;
+  /*display: flex;
+    justify-content: flex-start;
+    align-items: center;*/
+}
+
+#mine_points {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  font-size: 6cqw;
+  font-family: sans-serif;
+  color: black;
+  margin-left: 15%;
+}
+
+#mine_liv{
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: black;
+}
+
+#time_board {
+  position: absolute;
+  top: 12%;
+  left: 1%;
+  width: 4%;
+  aspect-ratio: 23.5/194.5;
+  background-image: url(../img/tid.svg);
+  background-size: cover;
+}
+
+/* Start- og slutskærme */
+
+#start {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/titelskærm.svg);
+  background-size: cover;
+}
+
+#play {
+  position: absolute;
+  width: 20%;
+  left: 42%;
+  top: 75%;
+  aspect-ratio: 240/92;
+  background-image: url("../img/startbanan.svg");
+  background-size: cover;
+}
+
+#game_over {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  aspect-ratio: 16/9;
+  background-image: url(../img/Game\ Over.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#play_again_1,
+#play_again_2 {
+  position: absolute;
+  width: 10%;
+  left: 47%;
+  top: 73%;
+  aspect-ratio: 80/80;
+  background-image: url("../img/igen.svg");
+  background-size: cover;
+}
+
+#level_complete {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  aspect-ratio: 16/9;
+  background-image: url(../img/Level\ complete.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+img{
+  display: block;
+  max-width: 60%;
+  margin: 0 auto;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  font-family: "joti";
+  color: black;
+  text-align: center;
+  margin: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5%;
+}
+
+h2{
+  text-align: center;
+  color: black;
+}
+
+#frugter{
+  max-width: 30%;
+  height: auto;
+  margin: 0 auto;
+}

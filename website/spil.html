@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="spil.html">Spil</a>
+        <a href="assets.html">Assets</a>
+        <a href="grafik.html">Grafik</a>
+        <a href="teknik.html">Teknik</a>
+      </nav>
+    </header>
+    <main>
+      <div id="screen">
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_elements">
+            <div id="kurv"></div>
+            <div id="able_container">
+              <div id="able_sprite"></div>
+            </div>
+            <div id="able_container1">
+              <div id="able_sprite1"></div>
+            </div>
+            <div id="able_container2">
+              <div id="able_sprite2"></div>
+            </div>
+            <div id="able_container3">
+              <div id="able_sprite3"></div>
+            </div>
+            <div id="able_container4">
+              <div id="able_sprite4"></div>
+            </div>
+            <div id="Rable_container">
+              <div id="Rable_sprite"></div>
+            </div>
+            <div id="Rable_container1">
+              <div id="Rable_sprite1"></div>
+            </div>
+            <div id="Rable_container2">
+              <div id="Rable_sprite2"></div>
+            </div>
+            <div id="Rable_container3">
+              <div id="Rable_sprite3"></div>
+            </div>
+            <div id="Rable_container4">
+              <div id="Rable_sprite4"></div>
+            </div>
+          </div>
+          <div id="game_foreground"></div>
+          <div id="game_ui">
+            <div id="score_board">
+              <div id="mine_points"></div>
+            </div>
+            <div id="energy_board">
+              <div id="mine_liv"></div>
+            </div>
+            <div id="time_board"><div id="fyld"></div></div>
+          </div>
+        </div>
+        <div id="start">
+          <div id="play"></div>
+        </div>
+        <div id="game_over">
+          <div id="play_again_1"></div>
+        </div>
+        <div id="level_complete">
+          <div id="play_again_2"></div>
+        </div>
+      </div>
+    </main>
+
+    <audio src="sounds/Gameover_lyd.mp3"></audio>
+    <audio src="sounds/godfrugt_lyd.mp3"></audio>
+    <audio src="sounds/Dårligfrugt_lyd.mp3"></audio>
+    <audio src="sounds/Levelcomplete_lyd.mp3"></audio>
+
+    <footer>Made by Mille Wandel</footer>
+    <script src="js/fruit.js"></script>
+  </body>
+</html>
