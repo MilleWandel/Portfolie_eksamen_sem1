@@ -260,9 +260,22 @@ img {
     margin-left: 25%;
   }
 
-  .grid3_2{
-    display: block;
-    margin-left: -10%;
+  .grid2_4{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    margin-left: 22%;
+  }
+  
+  .grid1{
+    margin-left: 22%;
+  }
+  
+  .grid2_6{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: 22%;
   }
 
 }
