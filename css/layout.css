@@ -235,11 +235,11 @@ img {
   margin-left: 2%;
   }
 
-  .grid2_3 {
+  .grid3_2 {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 14%;
-    margin-bottom: 14%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: -12%;
   }
 
