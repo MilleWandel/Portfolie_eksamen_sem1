@@ -71,12 +71,18 @@ p {
   font-family: exo;
 }
 
+li{
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
 #forside_p {
   border: 2px solid bisque;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 50%;
-  padding: 4%;
+  padding: 5%;
 }
 
 footer {
@@ -88,11 +94,10 @@ img {
   max-width: 70%;
 }
 
-#kaffe_billeder {
+.kaffe_billede {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 100%;
-  margin: 0 auto;
   margin-left: 12%;
 }
 
@@ -159,4 +164,88 @@ img {
 .ux_tekst{
     max-width: 70%;
     margin-left: 15%;
+}
+
+
+@media (max-width: 600px){
+
+.menu {
+    font-family: lemon;
+  }
+  
+  nav a {
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  nav {
+    justify-content: right;
+    margin-top: 10%;
+  }
+
+  #grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  #forside_mw {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+  }
+
+  #forside_p {
+    border: 2px solid bisque;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    padding: 13%;
+  }
+
+  .grid3_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 7%;
+  }
+
+  .mig_billede{
+    margin-left: 22%;
+  }
+
+  .mig_tekst {
+    max-width: 95%;
+  margin-left: 2%;
+  }
+
+  .grid2_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 14%;
+    margin-bottom: 14%;
+    margin-left: -12%;
+  }
+
+  p{
+    padding: 3%;
+  }
+
+  .kaffe_billede {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin-left: 25%;
+  }
+
+  #grid1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 25%;
+  }
+
+  .grid3_2{
+    display: block;
+    margin-left: -10%;
+  }
+
 }
